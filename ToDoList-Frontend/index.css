@@ -1,0 +1,109 @@
+body {
+    box-sizing: border-box;
+    background: #f5f5f5;
+    color: #737979;
+}
+
+.btn {
+    border: none;
+    background: #d5c8de;
+    font-family: inherit;
+    font-style: normal;
+    font-size: 12px;
+    color: #737979;
+}
+
+.btn:hover {
+    background: #bdadc5;
+
+}
+
+input[placeholder] {
+    font-style: italic;
+    font-size: 14px;
+    color: #c9b8d1;
+
+}
+
+#title::-webkit-input-placeholder, #description::-webkit-input-placeholder, #date::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    font-style: italic;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+#title:-moz-placeholder, #description:-moz-placeholder, #date:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    font-style: italic;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+#title::-moz-placeholder, #description::-moz-placeholder, #date::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    font-style: italic;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+#title:-ms-input-placeholder, #description:-ms-input-placeholder, #date:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    font-style: italic;
+    font-size: 14px;
+}
+
+input[type='date'] {
+    -moz-appearance: textfield;
+    -webkit-appearance: textfield;
+    appearance: textfield;
+    font-style: italic;
+    font-size: 14px;
+    color: #c9b8d1;
+}
+
+td {
+    position: relative;
+}
+
+tr.strikeout td:before {
+
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    border-bottom: 1px solid #111;
+    width: 100%;
+}
+
+tr.strikeout td:last-child:before {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    border-bottom: 1px solid transparent;
+    width: 100%;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: Helvetica;
+    font-style: italic;
+    color: #9fa6a6;
+    opacity: 0.8;
+}
+
+#info {
+    background: #d5c8de;
+    color: inherit;
+}
+
+#taskNumber {
+    font-size: medium;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
